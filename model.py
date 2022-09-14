@@ -6,6 +6,8 @@ import os
 
 # In the branch we try to add an additional hidden layer 
 # another comment
+# after merge test
+
 class Linear_QNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super().__init__()
