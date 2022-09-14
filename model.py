@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import os
 
 # In the branch we try to add an additional hidden layer 
+#
 
 class Linear_QNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
